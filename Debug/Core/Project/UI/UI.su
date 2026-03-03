@@ -1,0 +1,6 @@
+../Core/Project/UI/UI.c:28:6:UI_ISR_Button	8	static
+../Core/Project/UI/UI.c:33:6:UI_ISR_Slider	8	static
+../Core/Project/UI/UI.c:42:6:UI_Initialize	16	static
+../Core/Project/UI/UI.c:58:6:UI_GetButtonState	4	static
+../Core/Project/UI/UI.c:63:6:UI_GetSliderState	4	static
+../Core/Project/UI/UI.c:68:6:UI_SetLEDState	16	static

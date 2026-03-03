@@ -1,0 +1,17 @@
+../Core/Project/Manager/Manager.c:167:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Project/Manager/Manager.c:177:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Project/Manager/Manager.c:185:6:Manager_Initialize	64	static
+../Core/Project/Manager/Manager.c:210:6:Manager_Loop	16	static
+../Core/Project/Manager/Manager.c:244:13:LED0_SetPin	16	static
+../Core/Project/Manager/Manager.c:248:13:LED1_SetPin	16	static
+../Core/Project/Manager/Manager.c:252:13:LED2_SetPin	16	static
+../Core/Project/Manager/Manager.c:256:13:LED3_SetPin	16	static
+../Core/Project/Manager/Manager.c:260:13:Button_GetPin	8	static
+../Core/Project/Manager/Manager.c:264:13:Slider_GetPin	8	static
+../Core/Project/Manager/Manager.c:268:13:button_pressed_logic	16	static
+../Core/Project/Manager/Manager.c:282:13:button_unpressed_logic	16	static
+../Core/Project/Manager/Manager.c:289:13:I2C_Write	24	static
+../Core/Project/Manager/Manager.c:293:13:I2C_Read	24	static
+../Core/Project/Manager/Manager.c:298:16:CRC_Calculate	32	static
+../Core/Project/Manager/Manager.c:319:13:Delay_ms	16	static
+../Core/Project/Manager/Manager.c:323:13:update_leds	24	static

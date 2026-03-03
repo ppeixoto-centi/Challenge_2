@@ -1,0 +1,7 @@
+../Core/Project/Sensors/SHT31.c:26:21:TemperatureConverter	16	static
+../Core/Project/Sensors/SHT31.c:29:21:HumidityConverter	16	static
+../Core/Project/Sensors/SHT31.c:50:6:COM_WriteRegister	24	static
+../Core/Project/Sensors/SHT31.c:60:6:COM_Read6Bytes	32	static
+../Core/Project/Sensors/SHT31.c:84:6:SHT31_Initialize	16	static
+../Core/Project/Sensors/SHT31.c:95:6:SHT31_SoftReset	8	static
+../Core/Project/Sensors/SHT31.c:106:6:SHT31_GetData	24	static

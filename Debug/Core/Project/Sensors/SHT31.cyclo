@@ -1,0 +1,7 @@
+../Core/Project/Sensors/SHT31.c:26:21:TemperatureConverter	1
+../Core/Project/Sensors/SHT31.c:29:21:HumidityConverter	1
+../Core/Project/Sensors/SHT31.c:50:6:COM_WriteRegister	1
+../Core/Project/Sensors/SHT31.c:60:6:COM_Read6Bytes	3
+../Core/Project/Sensors/SHT31.c:84:6:SHT31_Initialize	1
+../Core/Project/Sensors/SHT31.c:95:6:SHT31_SoftReset	1
+../Core/Project/Sensors/SHT31.c:106:6:SHT31_GetData	1
