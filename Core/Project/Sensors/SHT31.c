@@ -110,6 +110,8 @@ void SHT31_GetData(float * temp_ptr,
 
     COM_WriteRegister(SHT31_CMD_SINGLE_MEDIUM_STRETCH);
 
+    Delay_ms(20);
+
     COM_Read6Bytes(&raw_temp, &raw_hum);
 
     *temp_ptr = TemperatureConverter(raw_temp);

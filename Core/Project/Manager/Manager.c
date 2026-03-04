@@ -196,7 +196,7 @@ void Manager_Initialize(void)
 	UI_Initialize(config);
 
 	st_SHT31_CONFIG sensor_config = {};
-	sensor_config.i2c_address = SHT31_I2C_ADDRESS_GND;
+	sensor_config.i2c_address = SHT31_I2C_ADDRESS_GND << 1;
 	sensor_config.I2C_Read = I2C_Read;
 	sensor_config.I2C_Write = I2C_Write;
 	sensor_config.Delay_ms = Delay_ms;
@@ -225,6 +225,7 @@ void Manager_Loop(void)
 	}
 
 	else if (UI_GetSliderState() == SLIDER_INACTIVE && period_elapsed == true){
+		period_elapsed = false; //Clears the elapsed time flag
 
 		SHT31_GetData(&temp, &hum); //Reads the data from the semsor
 
@@ -351,7 +352,7 @@ static void update_leds(float temp){
 		UI_SetLEDState(3, LED_OFF);
 	}
 
-	else if (drift >= 1 && drift < 1.5){
+	else if (drift >= 1.5 ){
 		UI_SetLEDState(0, LED_ON);
 		UI_SetLEDState(1, LED_ON);
 		UI_SetLEDState(2, LED_ON);

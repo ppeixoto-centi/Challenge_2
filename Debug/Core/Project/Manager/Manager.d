@@ -30,7 +30,7 @@ Core/Project/Manager/Manager.o: ../Core/Project/Manager/Manager.c \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Core/Inc/tim.h ../Core/Inc/i2c.h \
- C:/Users/ppeixoto/OneDrive\ -\ CENTI/Ambiente\ de\ Trabalho/Challenge_2/Core/Project/Sensors/SHT31.H \
+ C:/Users/PC/Desktop/Centi/Challenge_2/Challenge_2/Core/Project/Sensors/SHT31.H \
  ../Core/Project/Manager/Manager.h ../Core/Project/Manager/../UI/UI.h
 ../Core/Inc/gpio.h:
 ../Core/Inc/main.h:
@@ -65,6 +65,6 @@ Core/Project/Manager/Manager.o: ../Core/Project/Manager/Manager.c \
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h:
 ../Core/Inc/tim.h:
 ../Core/Inc/i2c.h:
-C:/Users/ppeixoto/OneDrive\ -\ CENTI/Ambiente\ de\ Trabalho/Challenge_2/Core/Project/Sensors/SHT31.H:
+C:/Users/PC/Desktop/Centi/Challenge_2/Challenge_2/Core/Project/Sensors/SHT31.H:
 ../Core/Project/Manager/Manager.h:
 ../Core/Project/Manager/../UI/UI.h:
