@@ -30,7 +30,7 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  ../Core/Inc/i2c.h ../Core/Inc/main.h ../Core/Inc/tim.h \
  ../Core/Inc/gpio.h \
- C:/Users/PC/Desktop/Centi/Challenge_2/Challenge_2/Core/Project/Manager/Manager.h
+ C:/Users/ppeixoto/OneDrive\ -\ CENTI/Ambiente\ de\ Trabalho/Centi/STM32/Challenge_2/Challenge_2/Core/Project/Manager/Manager.h
 ../Core/Inc/main.h:
 ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -65,4 +65,4 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
 ../Core/Inc/main.h:
 ../Core/Inc/tim.h:
 ../Core/Inc/gpio.h:
-C:/Users/PC/Desktop/Centi/Challenge_2/Challenge_2/Core/Project/Manager/Manager.h:
+C:/Users/ppeixoto/OneDrive\ -\ CENTI/Ambiente\ de\ Trabalho/Centi/STM32/Challenge_2/Challenge_2/Core/Project/Manager/Manager.h:

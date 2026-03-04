@@ -149,15 +149,72 @@ static void button_pressed_logic (uint8_t *led_index);
  */
 static void button_unpressed_logic (uint8_t *led_index);
 
-
-
-
+/**
+ * @brief Unpressed Button logic Handler
+ *
+ * @param   led_index -> Pointer to the leds index that stores the current position
+ *
+ * @return  None.
+ */
 static void button_unpressed_logic (uint8_t *led_index);
+
+/**
+ * @brief Unpressed Button logic Handler
+ *
+ * @param   led_index -> Pointer to the leds index that stores the current position
+ *
+ * @return  None.
+ */
+static void button_unpressed_logic (uint8_t *led_index);
+
+/**
+ * @brief I2C protocol write low level driver
+ *
+ * @param   i2c_address -> Slave´s Adress
+ * @param   tx_vec -> Vector with the data to be send
+ * @param   tx_vec_size -> Number of Bits to send
+ *
+ * @return  None.
+ */
 static void I2C_Write (uint8_t i2c_address, uint8_t * tx_vec, uint8_t   tx_vec_size);
+
+/**
+ * @brief I2C protocol read low level driver
+ *
+ * @param   i2c_address -> Slave´s Adress
+ * @param   tx_vec -> Vector with the data to be send
+ * @param   tx_vec_size -> Number of Bits to send
+ *
+ * @return  None.
+ */
 static void I2C_Read (uint8_t i2c_address, uint8_t * rx_vec, uint8_t   rx_vec_size);
+
+/**
+ * @brief Checksum Calculator function
+ *
+ * @param   data -> Slave´s Adress
+ * @param   data_size -> Vector with the data to be send
+ *
+ * @return  uint8_t.
+ */
 static uint8_t CRC_Calculate (const uint8_t * data, uint8_t data_size);
+
+/**
+ * @brief Delay function
+ *
+ * @param   msec -> Milliseconds to delay
+ *
+ * @return  None.
+ */
 static void Delay_ms (uint16_t msec);
 
+/**
+ * @brief Update all leds with relation to measurement drift around the hardcode preset
+ *
+ * @param   temp -> Measured Temperature
+ *
+ * @return  None.
+ */
 static void update_leds(float temp);
 /* ************************************************************************************ */
 /* * HAL Functions                                                                    * */
